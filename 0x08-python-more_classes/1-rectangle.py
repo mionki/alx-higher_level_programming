@@ -1,4 +1,4 @@
-#usr/bin/python3
+#!/usr/bin/python3
 """Define a Class of a rectangle"""
 
 class Rectangle:
@@ -22,7 +22,7 @@ class Rectangle:
     @property
     def height(self):
         return self.__height
-    """Setter for the private instance height"""
+    """Setter for the private instance"""
     @height.setter
     def height(self,value):
         if type(value) is not int:
@@ -31,8 +31,6 @@ class Rectangle:
             raise ValueError("height must be >= 0") 
         else:
             self.__height =  value  
-    
-    
 
 
 
