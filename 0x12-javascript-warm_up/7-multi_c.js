@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const x = process.ArgV[2];
+const x = process.argV[2];
 if (isNaN(x)){
     console.log("Missing occurrences")
 }else{
